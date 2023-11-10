@@ -2,7 +2,9 @@
 
 import { useEffect, useState } from "react";
 
-const baseUrl = `http://localhost/wordpress`;
+// configure your hostname to set baseUrl
+// const baseUrl = `http://localhost/wordpress`;
+const baseUrl = "https://ksc.iuu.mn";
 
 const useFetch = (url) => {
   const [data, setData] = useState([]);

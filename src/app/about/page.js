@@ -4,7 +4,9 @@ import Container from "../components/Container";
 import useFetch from "../hooks/useFetch";
 
 // Here set page slug
-const PAGE_SLUG = "sample-page";
+// const PAGE_SLUG = "sample-page";
+// you can replace below text
+const PAGE_SLUG = "холбоо-барих";
 
 const AboutPage = () => {
   const { data, loading } = useFetch(
@@ -42,7 +44,7 @@ const AboutPage = () => {
           {data[0].title.rendered}
         </h1>
         <div
-          className="prose prose-slate max-w-2xl mx-auto"
+          className="prose prose-slate max-w-3xl mx-auto"
           dangerouslySetInnerHTML={{ __html: data[0].content.rendered }}
         />
       </section>
