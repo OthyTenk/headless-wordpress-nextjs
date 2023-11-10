@@ -1,3 +1,6 @@
+<img width="1505" alt="Screenshot 2023-11-11 at 00 17 08" src="https://github.com/OthyTenk/headless-wordpress-nextjs/assets/34827155/57edc94b-2831-4e5a-bdbc-8eb9e783369a">
+
+
 This is a [simple headless wordpress theme with nextjs(react)](https://github.com/OthyTenk/headless-wordpress-nextjs).
 
 ## Getting Started
@@ -18,7 +21,7 @@ yarn
 pnpm i
 ```
 
-### [Install packages](https://github.com/OthyTenk/headless-wordpress-nextjs#)
+### Start the app
 
 Run the development server:
 
