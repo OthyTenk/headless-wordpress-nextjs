@@ -1,7 +1,7 @@
 "use client";
 
 import Container from "./Container";
-import Navigation from "./navigation";
+import Navigation from "./Navigation";
 
 const Header = () => {
   return (
